@@ -1,0 +1,11 @@
+consultar:
+  handler: app.consultar 
+  events:
+    - httpApi:
+        path: /consultar
+        method: get
+    - httpApi:
+        path: /consultar
+        method: post
+
+      

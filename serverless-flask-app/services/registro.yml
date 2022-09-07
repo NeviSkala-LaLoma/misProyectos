@@ -1,0 +1,6 @@
+hello:
+  handler: app.registrar
+  events:
+    - httpApi:
+        path: /
+        method: post
